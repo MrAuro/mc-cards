@@ -1,0 +1,10 @@
+name: Cards
+version: '1.0-SNAPSHOT'
+main: dev.mrauro.cards.Cards
+api-version: 1.19
+authors: [ Auro ]
+commands:
+  givedeck:
+    description: Gives a deck of cards
+    usage: /givedeck
+    permission: cards.givedeck
